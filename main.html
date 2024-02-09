@@ -8,15 +8,40 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<nav>
-		<img src="https://picsum.photos/200/300" alt ="logo"/>
-		<h1>heading for this navbar</h1>
-		<ul role="checkRole">
-			<li>home</li>
-			<li>home</li>
-		</ul>
-		
-	</nav>
+	<header role="heading">
+  <h1>My Portfolio</h1>
+</header>
+
+<nav role="navigation">
+  <ul role="list">
+    <li role="listitem"><a href="#about">About</a></li>
+    <li role="listitem"><a href="#projects">Projects</a></li>
+    <li role="listitem"><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="Profile Picture" role="img">
+    <p>Hi, I'm John Doe. I'm a passionate web developer.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul role="list">
+      <li role="listitem">Project 1</li>
+      <li role="listitem">Project 2</li>
+      <li role="listitem">Project 3</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: john@example.com</p>
+    <p>Phone: 123-456-7890</p>
+  </section>
+</main>
     <script type="text/javascript" src="./script.js">
 </script>
 
